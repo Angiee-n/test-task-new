@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TestTask</title>
+    <link href="//fonts.googleapis.com/css?family=Arimo:regular,500,600,700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container container">
+                <a href="" class="header-logout">
+                    קתנתהל
+                    <img src="img/icons/logout.png" alt="">
+                </a>
+                <ul class="header-right">
+                    <li class="right-id">ID: 380645708</li>
+                    <li class="right-hug">
+                        <a href="" class="hug-link">
+                            רוזח
+                            <img src="img/icons/hug.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="user-info">
+            <div class="user-info-container container">
+                <div class="control-menu-info-container">
+                    <div class="segment-control-buttons">
+                        <button class="btn-diseble control-menu-button video-call ">Video Call</button>
+                        <button class="control-menu-button status-info">Authorized Persons</button>
+                        <button class="control-menu-button us-info">User Infomation</button>
+                    </div>
+                    <form class="info">
+                        <div class="info-item">
+                            <label for="userSurname" class="item-id">Surname</label>
+                            <input type="text" id="inputSurname" class="item-value" name="userSurname"
+                                value="Flores"></input>
+                        </div>
+                        <div class="info-item">
+                            <label for="userName" class="item-id">Name</label>
+                            <input type="text" id="inputName" class="item-value" name="userName" value="Albert"></input>
+                        </div>
+                        <div class="info-item">
+                            <label for="userEmail" class="item-id">Email address</label>
+                            <input type="email" id="email" class="item-value" name="userEmail"
+                                value="email@example.com"></input>
+                        </div>
+                        <div class="info-item">
+                            <label for="userTel" class="item-id">Phone number</label>
+                            <input type="tel" id="userTel" name="userTel" value="073 063 33 93"
+                                class="item-value"></input>
+                        </div>
+                        <div class="info-item">
+                            <label for="userID" class="item-id">ID number</label>
+                            <input type="text" id="id-number" name="userID" value="380645708"
+                                class="item-value"></input>
+                        </div>
+                        <div class="info-item">
+                            <label for="userLicence" class="item-id">Licence number</label>
+                            <input type="text" id="licence-number" name="userLicence" value="380645708"
+                                class="item-value"></input>
+                        </div>
+                    </form>
+                </div>
+                <div class="general-info sidebar">
+                    <div class="info-edit">
+                        <a href="" class="edit"><img class="edit-img" src="img/icons/edit.png" alt="edit">Edit</a>
+                    </div>
+                    <div class="user-name">
+                        <img src="img/Photo.png" alt="user-photo">
+                        <div class="user-name-surname">Albert Flores</div>
+                    </div>
+                    <div class="registration-date">
+                        <h3 class="date">20.05.2021</h3>
+                        <div class="text">Registration date:
+                            <a href=""><img src="img/icons/addContact.png" alt="addContact"></a>
+                        </div>
+                    </div>
+                    <div class="amount-of-orders">
+                        <h3 class="amount">5</h3>
+                        <div class="text">Amount of
+                            orders:
+                            <a href=""><img src="img/icons/statictics.png" alt="statictics"></a>
+                        </div>
+                    </div>
+                    <button class="control-menu-button block-user">Block user</button>
+                </div>
+            </div>
+            <div class="order-history">
+                <div class="order-history-container container">
+                    <div class="order-history-bar">
+                        <button class="button-settings">
+                            <img src="img/icons/settings.png" alt="settings">
+                        </button>
+                        <h2 id="order-history-title">Order history</h2>
+                    </div>
+                    <div class="orders-slider Flipped">
+                        <div class="orders">
+                            <div id="code1" class="order-information">
+                                <div class="order-card">
+                                    <a href="" class="view">
+                                        <h3 class="view-title">View</h3><img src="img/icons/view.png" alt="view">
+                                    </a>
+                                    <div class="order-card-container">
+                                        <div class="order-cost item">
+                                            <h3 class="cost-title title">Cost</h3>
+                                            <p class="cost-value">₪ 24.48</p>
+                                        </div>
+                                        <div class="order-date-time item">
+                                            <h3 class="date-time-title title">Date & time</h3>
+                                            <p class="date-time-value">21.03.2021 16:12</p>
+                                        </div>
+                                        <div class="order-item item">
+                                            <h3 class="item-title title">Items</h3>
+                                            <p class="item-value">
+                                                1 X Better PK Flower (T20/C4);<br>
+                                                2 X Canndoc Ultra Sour Oil (T20/C4)
+                                            </p>
+                                        </div>
+                                        <div class="order-delivery-pickup item">
+                                            <h3 class="delivery-pickup-title title">Delivery or pickup</h3>
+                                            <p class="delivery-pickup-value">Pick up from<br>store</p>
+                                        </div>
+                                        <div class="order-payment-method item">
+                                            <h3 class="payment-method-title title">Payment method</h3>
+                                            <p class="payment-method-value">Paid upon recive</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-status">
+                                    <div class="status-title title">Pending</div>
+                                    <div class="status-img pending"></div>
+                                </div>
+                            </div>
+                            <div id="code2" class="order-information">
+                                <div class="order-card">
+                                    <a href="" class="view">
+                                        <h3 class="view-title">View</h3><img src="img/icons/view.png" alt="view">
+                                    </a>
+                                    <div class="order-card-container">
+                                        <div class="order-cost item">
+                                            <h3 class="cost-title title">Cost</h3>
+                                            <p class="cost-value">₪ 54.50</p>
+                                        </div>
+                                        <div class="order-date-time item">
+                                            <h3 class="date-time-title title">Date & time</h3>
+                                            <p class="date-time-value">13.02.2021 16:12</p>
+                                        </div>
+                                        <div class="order-item item">
+                                            <h3 class="item-title title">Items</h3>
+                                            <p class="item-value">
+                                                2 X Canndoc Ultra Sour Oil (T20/C4)
+                                            </p>
+                                        </div>
+                                        <div class="order-delivery-pickup item">
+                                            <h3 class="delivery-pickup-title title">Delivery or pickup</h3>
+                                            <p class="delivery-pickup-value">Delivery</p>
+                                        </div>
+                                        <div class="order-payment-method item">
+                                            <h3 class="payment-method-title title">Payment method</h3>
+                                            <p class="payment-method-value">Paid by Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-status">
+                                    <div class="status-title title">Complete</div>
+                                    <div class="status-img complete"></div>
+                                </div>
+                            </div>
+                            <div id="code3" class="order-information">
+                                <div class="order-card">
+                                    <a href="" class="view">
+                                        <h3 class="view-title">View</h3><img src="img/icons/view.png" alt="view">
+                                    </a>
+                                    <div class="order-card-container">
+                                        <div class="order-cost item">
+                                            <h3 class="cost-title title">Cost</h3>
+                                            <p class="cost-value">₪ 24.48</p>
+                                        </div>
+                                        <div class="order-date-time item">
+                                            <h3 class="date-time-title title">Date & time</h3>
+                                            <p class="date-time-value">21.03.2021 16:12</p>
+                                        </div>
+                                        <div class="order-item item">
+                                            <h3 class="item-title title">Items</h3>
+                                            <p class="item-value">
+                                                1 X Better PK Flower (T20/C4);<br>
+                                                2 X Canndoc Ultra Sour Oil (T20/C4)
+                                            </p>
+                                        </div>
+                                        <div class="order-delivery-pickup item">
+                                            <h3 class="delivery-pickup-title title">Delivery or pickup</h3>
+                                            <p class="delivery-pickup-value">Pick up from<br>store</p>
+                                        </div>
+                                        <div class="order-payment-method item">
+                                            <h3 class="payment-method-title title">Payment method</h3>
+                                            <p class="payment-method-value">Paid upon recive</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-status">
+                                    <div class="status-title title">Pending</div>
+                                    <div class="status-img pending"></div>
+                                </div>
+                            </div>
+                            <div id="code4" class="order-information">
+                                <div class="order-card">
+                                    <a href="" class="view">
+                                        <h3 class="view-title">View</h3><img src="img/icons/view.png" alt="view">
+                                    </a>
+                                    <div class="order-card-container">
+                                        <div class="order-cost item">
+                                            <h3 class="cost-title title">Cost</h3>
+                                            <p class="cost-value">₪ 54.50</p>
+                                        </div>
+                                        <div class="order-date-time item">
+                                            <h3 class="date-time-title title">Date & time</h3>
+                                            <p class="date-time-value">13.02.2021 16:12</p>
+                                        </div>
+                                        <div class="order-item item">
+                                            <h3 class="item-title title">Items</h3>
+                                            <p class="item-value">
+                                                2 X Canndoc Ultra Sour Oil (T20/C4)
+                                            </p>
+                                        </div>
+                                        <div class="order-delivery-pickup item">
+                                            <h3 class="delivery-pickup-title title">Delivery or pickup</h3>
+                                            <p class="delivery-pickup-value">Delivery</p>
+                                        </div>
+                                        <div class="order-payment-method item">
+                                            <h3 class="payment-method-title title">Payment method</h3>
+                                            <p class="payment-method-value">Paid by Card</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-status">
+                                    <div class="status-title title">Complete</div>
+                                    <div class="status-img complete"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
